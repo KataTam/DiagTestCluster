@@ -28,10 +28,10 @@ ____________________________
 							
 Patient-level contingency table							
 
-Prevalence-independent measures	  						
+Prevalence-independent measures   	  						
 	Type_of_method	Sensitivity (%)	Lower_CI	Higher_CI	Specificity (%)	Lower_CI	Higher_CI
 												
-Prevalence-dependent measures	  						
+Prevalence-dependent measures   	  						
 	Type_of_method	PPV (%)	Lower_CI	Higher_CI	NPV (%)	Lower_CI	Higher_CI
 							
 Patient-level likelihood ratios							
@@ -40,10 +40,10 @@ Patient-level likelihood ratios
 							
 Segment-level contingency table							
 							
-Prevalence-independent measures	  						
+Prevalence-independent measures	     						
 	Type_of_method	Sensitivity (%)	Lower_CI	Higher_CI	Specificity (%)	Lower_CI	Higher_CI
 
-Prevalence-dependent measures	  						
+Prevalence-dependent measures	     						
 	Type_of_method	PPV (%)	Lower_CI	Higher_CI	NPV (%)	Lower_CI	Higher_CI
 							
 Segment-level likelihood ratios (NB: CI's not adjusted for clustering!)							
