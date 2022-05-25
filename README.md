@@ -53,6 +53,6 @@ Intracluster correlation coefficients
 ____________________________
 
 ## Visualizations
-Forest plots: Allows for comparison of outcomes obtained by each method. 
+Forest plots: Allow for comparison of outcomes obtained by each method. 
 ____________________________						
 
