@@ -3,7 +3,8 @@ Calculating diagnostic test values in the presence of clustering.
 
 Advanced screening and diagnostics for binary-scale diagnostic tests  
 Scripts and example datasets to calculate binary-scale diagnostic test characteristics in the context of clustering  
-based on Genders et al. (2012); Kirkwood & Sterne (2003); Hujoel, Moulton, & Loesche (1990), Ying et al. (2020), etc.  
+based on Genders et al. (2012); Hujoel, Moulton, & Loesche (1990); Kirkwood & Sterne (2003); McDonald (2019);   
+Mercaldo et al. (2007);Williams (2000); and Ying et al. (2020)   
 
 ## Input: data structure in wide format (i.e., one row per patient)  
 id = patient identification number (identifies the clusters i =1…I)  
