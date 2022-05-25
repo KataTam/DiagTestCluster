@@ -52,4 +52,4 @@ ____________________________
 Forest plots: Allow for comparison of outcomes obtained by each method. 
 ____________________________						
 
-
+When sourcing the script, use the "print.eval=TRUE" option so that the forest plots can be generated, e.g.: source("~path/Advanced_screening_diagnostics_Tamasi_website.R", print.eval=TRUE)
