@@ -20,3 +20,38 @@ N = number of nondiseased observations
 Test = index test result (e.g., Genders (2012): CT angiography: 1 if positive, 0 if negative)  
 Inv_test = inverse result of test for specificity calculations  
 Disease = presence of disease according to reference test (conventional angiography: 1 if positive, 0 if negative)  
+____________________________							
+
+## Results generated from input:
+### Patient-level analyses							
+							
+### Patient-level contingency table							
+
+###	Prevalence-independent measures							
+	Type_of_method	Sensitivity (%)	Lower_CI	Higher_CI	Specificity (%)	Lower_CI	Higher_CI
+												
+### Prevalence-dependent measures							
+	Type_of_method	PPV (%)	Lower_CI	Higher_CI	NPV (%)	Lower_CI	Higher_CI
+							
+### Patient-level likelihood ratios							
+							
+### Segment-level analyses							
+							
+### Segment-level contingency table							
+							
+### Prevalence-independent measures							
+	Type_of_method	Sensitivity (%)	Lower_CI	Higher_CI	Specificity (%)	Lower_CI	Higher_CI
+
+### Prevalence-dependent measures							
+	Type_of_method	PPV (%)	Lower_CI	Higher_CI	NPV (%)	Lower_CI	Higher_CI
+							
+### Segment-level likelihood ratios						
+NB: CIs not adjusted for clustering!							
+
+### Intracluster correlation coefficients	
+
+## Visualizations
+### Forest plots 
+Allows for comparison of outcomes obtained by each method. 
+____________________________						
+![image](https://user-images.githubusercontent.com/38690789/170232920-8886757b-d830-48b8-bc18-9524c5a12c7b.png)
