@@ -49,7 +49,8 @@ ____________________________
 Forest plots: Allow for comparison of outcomes obtained by each method. 
 ____________________________						
 
-Some remarks: 
+### Some remarks:  
+
 The methods reported by Genders et al. (2012) are validated using their dataset and supplementary materials.  
 They report slightly different CI's in the main text vs. in the supplementary materials, the latter of which   
 are exactly reproduced by the R script. CI's from the mixed effects logistic regression (called logistic   
