@@ -14,13 +14,6 @@ FP = number of false-positive observations
 TN = number of true-negative observations  
 Test_type (optional) = indicator variable if multiple index tests are considered (eg, 0 = test A, 1 = test B)  
 
-## Data generated from input:  
-j = number of available observations per cluster  
-D = number of diseased observations  
-N = number of nondiseased observations  
-Test = index test result (e.g., Genders (2012): CT angiography: 1 if positive, 0 if negative)  
-Inv_test = inverse result of test for specificity calculations  
-Disease = presence of disease according to reference test (conventional angiography: 1 if positive, 0 if negative)  
 ____________________________							
 
 ## Results generated from input:
