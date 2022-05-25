@@ -6,7 +6,11 @@ Scripts and example datasets to calculate binary-scale diagnostic test character
 based on Genders et al. (2012); Hujoel, Moulton, & Loesche (1990); Kirkwood & Sterne (2003); McDonald (2019);   
 Mercaldo et al. (2007);Williams (2000); and Ying et al. (2020).
 
-The methods reported by Genders et al. (2012) are validated using their dataset and supplementary materials. They report slightly different CI's in the main text vs. in the supplementary materials, the latter of which are exactly reproduced by the R script. 
+The methods reported by Genders et al. (2012) are validated using their dataset and supplementary materials.  
+They report slightly different CI's in the main text vs. in the supplementary materials, the latter of which   
+are exactly reproduced by the R script. CI's from the mixed effects logistic regression (called logistic   
+random-effects model by Genders et al., 2012) are slightly different due to the default number of quadrature  
+points when approximating the integral over the random effects structure (1 in R's glmer vs. 7 in STATA's xtmelogit).  
 
 
 ## Input: data structure in wide format (i.e., one row per patient)  
