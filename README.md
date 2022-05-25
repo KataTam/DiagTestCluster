@@ -1,10 +1,9 @@
 # DiagTestCluster
-Calculating diagnostic test values in the presence of clustering.  
+Calculating diagnostic test values (sensitivity, specificity, predictive values) in the presence of clustering.  
 
-Advanced screening and diagnostics for binary-scale diagnostic tests  
-Scripts and example datasets to calculate binary-scale diagnostic test characteristics in the context of clustering  
-based on Genders et al. (2012); Hujoel, Moulton, & Loesche (1990); Kirkwood & Sterne (2003); McDonald (2019);   
-Mercaldo et al. (2007); Williams (2000); and Ying et al. (2020).
+Complete R script to calculate binary-scale diagnostic test characteristics and confidence intervals in clustered data.  
+Example dataset is from Genders et al. (2012); other important references: Fliess et al. (2003); Hujoel, Moulton, & Loesche (1990); 
+Kirkwood & Sterne (2003); McDonald (2019); Mercaldo et al. (2007); Williams (2000); and Ying et al. (2020).
 
 ## Input: data structure in wide format (i.e., one row per patient)  
 id = patient identification number (identifies the clusters i =1…I)  
@@ -49,7 +48,7 @@ ____________________________
 Forest plots: Allow for comparison of outcomes obtained by each method. 
 ____________________________						
 
-### Some remarks:  
+### Some remarks 
 
 The methods reported by Genders et al. (2012) are validated using their dataset and supplementary materials.  
 They report slightly different CI's in the main text vs. in the supplementary materials, the latter of which   
@@ -57,7 +56,7 @@ are exactly reproduced by the R script. CI's from the mixed effects logistic reg
 random-effects model by Genders et al., 2012) are slightly different due to the default number of quadrature  
 points when approximating the integral over the random effects structure (1 in R's glmer vs. 7 in STATA's xtmelogit).
 
-When sourcing the script, use the "print.eval=TRUE" option so that the forest plots can be generated, e.g.: source("~path/Advanced_screening_diagnostics_Tamasi_website.R", print.eval=TRUE)
+When sourcing the script, use the "print.eval=TRUE" option so that the forest plots can be generated, e.g.: source("~yourpath/Advanced_screening_diagnostics_Tamasi_website.R", print.eval=TRUE)
 
   
 
