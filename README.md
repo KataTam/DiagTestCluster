@@ -56,7 +56,7 @@ are exactly reproduced by the R script. CI's from the mixed effects logistic reg
 random-effects model by Genders et al., 2012) are slightly different due to the default number of quadrature  
 points when approximating the integral over the random effects structure (1 in R's glmer vs. 7 in STATA's xtmelogit).
 
-When sourcing the script, use the "print.eval=TRUE" option so that the forest plots can be generated, e.g.: source("~yourpath/Advanced_screening_diagnostics_Tamasi_website.R", print.eval=TRUE)
+When sourcing the script, use the "print.eval=TRUE" option so that the forest plots can be generated, e.g.: source("~yourpath/Advanced_screening_diagnostics_Tamasi_website.R", print.eval=TRUE).
 
   
 
