@@ -6,7 +6,7 @@ Example dataset is from Genders et al. (2012); other important references: Flies
 Kirkwood & Sterne (2003); McDonald (2019); Mercaldo et al. (2007); Williams (2000); and Ying et al. (2020).
 
 ## Input: data structure in wide format (i.e., one row per patient)  
-id = patient identification number (identifies the clusters i =1…I)  
+id = patient identification number  
 TP = number of true-positive observations  
 FN = number of false-negative observations  
 FP = number of false-positive observations  
