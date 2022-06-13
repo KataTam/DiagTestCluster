@@ -2,7 +2,7 @@
 Calculating diagnostic test values (sensitivity, specificity, predictive values) in the presence of clustering.  
 
 Complete R script to calculate binary-scale diagnostic test characteristics and confidence intervals in clustered data.  
-Example dataset is from Genders et al. (2012); other important references: Fliess et al. (2003); Hujoel, Moulton, & Loesche (1990); 
+Example dataset is from Genders et al. (2012); other important references: Fleiss et al. (2003); Hujoel, Moulton, & Loesche (1990); 
 Kirkwood & Sterne (2003); McDonald (2019); Mercaldo et al. (2007); Williams (2000); and Ying et al. (2020).
 
 ## Input: data structure in wide format (i.e., one row per patient)  
